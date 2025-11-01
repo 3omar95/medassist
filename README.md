@@ -1,6 +1,6 @@
 # 🩺 MedAssist: Evidence-Grounded Medical Q&A System
 
-This repository contains my applied AI project, *MedAssist* — a complete *end-to-end Large Language Model (LLM)* pipeline integrating *QLoRA fine-tuning, **Retrieval-Augmented Generation (RAG), **LangChain memory, and a **Gradio web interface* for intelligent, evidence-based medical question answering.
+This repository contains my applied AI project, *MedAssist* — a complete *end-to-end Large Language Model (LLM)* pipeline integrating *QLoRA fine-tuning*, **Retrieval-Augmented Generation (RAG)**, **LangChain memory**, and a **Gradio web interface** for intelligent, evidence-based medical question answering.
 
 The project demonstrates a domain-tuned conversational AI that blends fine-tuning, retrieval, and reasoning for improved factual grounding and interpretability.
 
