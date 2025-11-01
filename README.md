@@ -51,8 +51,7 @@ The aim of this project is to design a domain-specialized assistant capable of:
 - Achieved full training completion in *under 11 hours* using efficient batching, packing, and step capping.  
 
 ### 2. Retrieval-Augmented Generation (RAG)  
-- Indexed PubMed and clinical guideline PDFs using *MiniLM embeddings* with *Chroma*.  
-- Added *Cross-Encoder reranker* to prioritize semantically aligned chunks.  
+- Indexed PubMed and clinical guideline PDFs using *MiniLM embeddings* with *FAISS*. 
 - Combined retrieval results and fine-tuned model reasoning to produce citation-backed answers.
 
 ### 3. Conversational Memory  
@@ -61,11 +60,10 @@ The aim of this project is to design a domain-specialized assistant capable of:
 
 ### 4. Gradio Web Interface  
 - Designed a minimalist UI to toggle between:
-  - *Base model* (unfine-tuned Mistral)
+  - *Fine-tuned Mistral*
   - *Fine-tuned model (MedAssist)*  
 - Displayed:
   - Top retrieved evidence chunks  
-  - Numbered citations in final answer  
   - Memory continuity indicator  
 
 ---
@@ -95,7 +93,6 @@ Key Insights:
 
 The Gradio interface allows:
 - Prompt input and answer generation.  
-- Toggle between base and fine-tuned models.  
 - View of top evidence chunks and citations.  
 
 ![MedAssist Gradio Interface](docs/assets/gradio_ui.png)
