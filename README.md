@@ -26,7 +26,6 @@ The aim of this project is to design a domain-specialized assistant capable of:
 | *Reranking* | Cross-Encoder reranker (ms-marco-MiniLM-L-6-v2) | cross-encoder |
 | *Memory* | Conversational buffer for multi-turn context | langchain.memory |
 | *Interface* | Gradio Web App (switch between base & fine-tuned models) | gradio |
-| *Deployment* | Docker-ready / Hugging Face Spaces | Dockerfile, requirements.txt |
 
 ---
 
@@ -37,8 +36,7 @@ The aim of this project is to design a domain-specialized assistant capable of:
 - TRL (SFTTrainer) – Supervised fine-tuning with LoRA adapters.  
 - LangChain – RAG pipeline orchestration (retriever, memory, chains).  
 - Sentence-Transformers – Document embeddings and semantic search.  
-- Cross-Encoder – Context reranking for higher retrieval accuracy.  
-- ChromaDB – Vector storage for indexed medical literature.  
+- FAISS – Vector storage for indexed medical literature.  
 - Gradio – Interactive model comparison interface.  
 - Evaluate & Scikit-learn – Metric computation and validation.  
 
