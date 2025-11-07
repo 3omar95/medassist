@@ -124,7 +124,6 @@ The Gradio interface allows:
 
 - 📘 Dataset: [PubMedQA — Hugging Face](https://huggingface.co/datasets/pubmed_qa)  
 - 🧩 Base Model: [Mistral-7B-Instruct](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)  
-- 🧠 Cross Encoder: [ms-marco-MiniLM-L-6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2)  
 
 ---
 
