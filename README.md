@@ -104,7 +104,6 @@ The Gradio interface allows:
 - Integrate *DPO / RLAIF* for human-preference alignment.  
 - Add *citation verification metrics* to automatically score factual overlap.  
 - Extend to *multilingual support*.  
-- Enhance *retrieval with medical ontologies* (UMLS / SNOMED).  
 - Deploy an *interactive Hugging Face Space* with persistent vector index.  
 
 ---
